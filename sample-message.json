@@ -1,0 +1,14 @@
+{
+  "tracker_id": "abcd",
+  "application": "checkout",
+  "flow": "sale",
+  "data": {
+    "contentId": "33345",
+    "document": "00000000000",
+    "email": "asd@gmail.com"
+  },
+  "step": {
+    "name": "mount",
+    "date": "2018-05-28T17:49:41.987Z"
+  }
+}

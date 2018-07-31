@@ -1,0 +1,12 @@
+version: "3"
+services:
+  worker:
+    image: infraeduzz/goofy:master
+    restart: always
+    environment:
+      - ES_DSN=https://search-eduzz-43w3dzztjdgcnhain5wjzdn3lu.us-east-1.es.amazonaws.com
+      - ES_INDEX=goofy_test
+      - RABBIT_QUEUE=goofy.track.data
+      - RABBIT_DSN=
+      - RABBIT_EXCHANGE=eduzz
+      - RABBIT_TOPIC=goofy.track.data
